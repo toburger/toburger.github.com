@@ -20,7 +20,7 @@ So I wrote my own “PackageManagement.fsx” file which can be initialized with
 
 ![](http://tobivnext.files.wordpress.com/2014/03/032614_1615_importnuget1.png?w=580)
 
-And here is the script code: https://gist.github.com/toburger/9786275
+And here is the script code: [https://gist.github.com/toburger/9786275](https://gist.github.com/toburger/9786275)
 
 It depends on the NuGet.Core.dll which you can get from [here](http://nuget.codeplex.com/) and you must define your target NuGet packages directory, where the packages are downloaded and from where they are referenced (you can define the `NugetLibDir` environment variable so you can use the same script on multiple machines). I ignore the versioning of the packages (I always download the latest stable release), but you can enable it by setting the boolean parameter `useSideBySidePaths` on line 11 to true.
 
@@ -42,4 +42,4 @@ The script should also work without VS and should work on Mono but I don’t hav
 
 ***
 
-Actually there is now a suggestion on fslang uservoice with a propose to natively support NuGet packages: http://fslang.uservoice.com/forums/245727-f-language/suggestions/5670137–package-directive-to-import-nuget-packages-in-f
+Actually there is now a suggestion on fslang uservoice with a propose to natively support NuGet packages: [http://fslang.uservoice.com/forums/245727-f-language/suggestions/5670137–package-directive-to-import-nuget-packages-in-f](http://fslang.uservoice.com/forums/245727-f-language/suggestions/5670137–package-directive-to-import-nuget-packages-in-f)

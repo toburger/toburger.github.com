@@ -1,8 +1,9 @@
 ---
 layout: post
-category: fsharp
+categories: fsharp
 title: Import NuGet packages to F# interactive scripts
-tags: [fsharp, nuget]
+tags: [featured, fsharp, nuget]
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 
 Yes, it’s been a long time (exactly one year, but that’s a coincidence) since my last blog post. The main reason was that in the last year I learnt F# and slowly I have the feeling that I have understood the language and especially the paradigm shift that comes with F#.

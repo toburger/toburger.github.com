@@ -1,4 +1,7 @@
-# IMPORT NUGET PACKAGES TO F# INTERACTIVE SCRIPTS
+---
+title :   IMPORT NUGET PACKAGES TO F# INTERACTIVE SCRIPTS
+categories : [fsharp, nuget]
+---
 
 Yes, it’s been a long time (exactly one year, but that’s a coincidence) since my last blog post. The main reason was that in the last year I learnt F# and slowly I have the feeling that I have understood the language and especially the paradigm shift that comes with F#.
 

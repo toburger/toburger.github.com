@@ -5,6 +5,54 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
+markdown: redcarpet
+
+name: 'Tobias Burger'
+author: 'Tobias Burger'
+author_image: "/assets/images/author.jpg"
+
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+paginate: 5
+
+url: http://toburger.github.io
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon: twitter
+    url:  https://twitter.com/toburger
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:  facebook
+#    url: https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon: github
+    url:  https://github.com/toburger
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:  google-plus
+#    url: https://google.com/???
+#    desc:  Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+
+
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -15,6 +63,7 @@ author :
   email : tobias_burger@hotmail.com
   github : toburger
   twitter : toburger
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

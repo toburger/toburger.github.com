@@ -4,7 +4,7 @@ highlighter: pygments
 
 # Site settings
 title: "Tobi vNext"
-description: > F#, C#, PowerShell and HTML5 developer; interested in everything tech-related with a strong focus on Microsoft technology.
+description: "F#, C#, PowerShell and HTML5 developer; interested in everything tech-related with a strong focus on Microsoft technology."
 
 email: tobias_burger@hotmail.com
 #blog logo

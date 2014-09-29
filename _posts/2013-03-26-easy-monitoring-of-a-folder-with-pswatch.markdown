@@ -13,7 +13,7 @@ Based on this monitoring you can further add scripting to automatically run othe
 
 I further customized the output to include the time of the occurrence of the event:
 
-    watch $env:Temp -includeDeleted | % { $_ | Add-Member ScriptProperty Time { Get-Date } -PassThru }
+`watch $env:Temp -includeDeleted | % { $_ | Add-Member ScriptProperty Time { Get-Date } -PassThru }`
 
 This adds a dynamic Time property which automatically updates itself when a new file change event is happening.
 

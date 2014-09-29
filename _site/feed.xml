@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tobi vNext</title>
+    <description>F#, C#, PowerShell and HTML5 developer; interested in everything tech-related with a strong focus on Microsoft technology.</description>
+    <link>http://toburger.github.io/</link>
+    <atom:link href="http://toburger.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 30 Sep 2014 00:25:34 +0200</pubDate>
+    <lastBuildDate>Tue, 30 Sep 2014 00:25:34 +0200</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;site-footer&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;subscribe&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/feed.xml&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tooltip&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;fa fa-rss&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/i&amp;gt; Subscribe!&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;inner&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;
+   &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;copyright&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;copyright&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mailto:tobias_burger@hotmail.com&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Tobias&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Burger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt; &amp;amp;copy; 2014 &amp;amp;bull; All rights reserved.&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;poweredby&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Made&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://jekyllrb.com&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/footer&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 16:34:25 +0200</pubDate>
+        <link>http://toburger.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://toburger.github.io/jekyll/update/2014/08/29/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Import NuGet packages to F# interactive scripts</title>
+        <description>&lt;p&gt;Yes, it’s been a long time (exactly one year, but that’s a coincidence) since my last blog post. The main reason was that in the last year I learnt F# and slowly I have the feeling that I have understood the language and especially the paradigm shift that comes with F#.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I jump over the usual homage of why F# is a wonderful language – that’s material for a plethora of blog posts – and come straight to the motivation of this blog post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are like me and you learn by trying things out you probably love the interactive and iterative nature of F#. Just create a new fsx (F# Interactive) file and start hacking until you have a working prototype. You don’t even have to save the file!
+I actually have a folder full of F# scripts with my experimentations in them.&lt;/p&gt;
+
+&lt;p&gt;One pain point though is that F# interactive does not have support for NuGet package management. You can reference the library files manually but that’s very cumbersome.&lt;/p&gt;
+
+&lt;p&gt;There exists an older &lt;a href=&quot;http://bloggemdano.blogspot.it/2011/08/adding-nuget-support-to-f-interactive.html&quot;&gt;blog post&lt;/a&gt; from Daniel Mohl where he suggests how to add NuGet support to F# Interactive, but his solution requires the VS Object Model and doesn’t support loose fsx files (without the creation of a F# project).&lt;/p&gt;
+
+&lt;p&gt;So I wrote my own “PackageManagement.fsx” file which can be initialized with F# Interactive:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2014/03/032614_1615_importnuget1.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is the script code: &lt;a href=&quot;https://gist.github.com/toburger/9786275&quot;&gt;https://gist.github.com/toburger/9786275&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It depends on the NuGet.Core.dll which you can get from &lt;a href=&quot;http://nuget.codeplex.com/&quot;&gt;here&lt;/a&gt; and you must define your target NuGet packages directory, where the packages are downloaded and from where they are referenced (you can define the &lt;code&gt;NugetLibDir&lt;/code&gt; environment variable so you can use the same script on multiple machines). I ignore the versioning of the packages (I always download the latest stable release), but you can enable it by setting the boolean parameter &lt;code&gt;useSideBySidePaths&lt;/code&gt; on line 11 to true.&lt;/p&gt;
+
+&lt;h2&gt;So how to work with this script?&lt;/h2&gt;
+
+&lt;p&gt;The main command is &lt;code&gt;ipr&lt;/code&gt; which stands for “install package and references”, which downloads the package with all its dependencies and adds the references to the clipboard, so the only thing you have to do is to paste the references on top of your script file.&lt;/p&gt;
+
+&lt;p&gt;Just enter &lt;code&gt;ipr “package name”;;&lt;/code&gt; in the f# Interactive REPL (don’t forget the two semicolons) and it will try it’s best to download and reference the packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2014/03/032614_1615_importnuget2.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;There are also commands to update and uninstall packages or to simply copy the references without trying to download the latest package.&lt;/p&gt;
+
+&lt;h2&gt;Limitations:&lt;/h2&gt;
+
+&lt;p&gt;I try my best to find the best matching references for the framework version in which F# interactive runs, but this matching is not bullet proof and unfortunately the NuGet lib doesn’t provide a way to get the best matching references automatically (at least I didn’t found any practical way).&lt;/p&gt;
+
+&lt;p&gt;The script should also work without VS and should work on Mono but I don’t have tested it so please feel free to contact me or edit the file if you have any problems.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Actually there is now a suggestion on fslang uservoice with a propose to natively support NuGet packages: &lt;a href=&quot;http://fslang.uservoice.com/forums/245727-f-language/suggestions/5670137%E2%80%93package-directive-to-import-nuget-packages-in-f&quot;&gt;http://fslang.uservoice.com/forums/245727-f-language/suggestions/5670137–package-directive-to-import-nuget-packages-in-f&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Mar 2014 00:00:00 +0100</pubDate>
+        <link>http://toburger.github.io/fsharp/2014/03/26/import-nuget-packages-to-fsharp-interactive-scripts.html</link>
+        <guid isPermaLink="true">http://toburger.github.io/fsharp/2014/03/26/import-nuget-packages-to-fsharp-interactive-scripts.html</guid>
+        
+        <category>featured</category>
+        
+        <category>fsharp</category>
+        
+        <category>nuget</category>
+        
+        
+        <category>fsharp</category>
+        
+      </item>
+    
+      <item>
+        <title>Easy monitoring of a folder with pswatch</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/jfromaniello/pswatch/&quot;&gt;pswatch&lt;/a&gt; is a easy to use little module for PowerShell to montitor a folder for changes.&lt;/p&gt;
+
+&lt;p&gt;You can choose if you want to monitor file additions, changes, renames or deletions. You can also monitor file sin subfolders.&lt;/p&gt;
+
+&lt;p&gt;Based on this monitoring you can further add scripting to automatically run other commands (see example on github).&lt;/p&gt;
+
+&lt;p&gt;I further customized the output to include the time of the occurrence of the event:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;watch $env:Temp -includeDeleted | % { $_ | Add-Member ScriptProperty Time { Get-Date } -PassThru }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This adds a dynamic Time property which automatically updates itself when a new file change event is happening.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Mar 2013 00:00:00 +0100</pubDate>
+        <link>http://toburger.github.io/powershell/2013/03/26/easy-monitoring-of-a-folder-with-pswatch.html</link>
+        <guid isPermaLink="true">http://toburger.github.io/powershell/2013/03/26/easy-monitoring-of-a-folder-with-pswatch.html</guid>
+        
+        <category>powershell</category>
+        
+        
+        <category>powershell</category>
+        
+      </item>
+    
+      <item>
+        <title>Reset your login credentials for &quot;Visual Studio Tools for Git&quot;</title>
+        <description>&lt;p&gt;If you change your login credentials for one of the git hosting services (github, bitbucket, …) and you try to pull, fetch or push you probably receive the same error as in the screenshot below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2013/02/021313_1429_resetyourlo1.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I struggled a while with the problem until I found the solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have to reset the credentials in the Windows Credential store.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Sorry, I have to translate the text on the fly because I have a German version of Windows 7.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Go to your user account settings and click on “manager your own credentials”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2013/02/021313_1429_resetyourlo2.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Pick the credentials for e.g. git: &lt;a href=&quot;https://bitbucket.org&quot;&gt;https://bitbucket.org&lt;/a&gt; and click on edit:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2013/02/021313_1429_resetyourlo3.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;You should now be able to work with your git remote again:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tobivnext.files.wordpress.com/2013/02/021313_1429_resetyourlo4.png?w=580&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hope this helps!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Feb 2013 00:00:00 +0100</pubDate>
+        <link>http://toburger.github.io/2013/02/13/reset-your-login-credentials-for-visual-studio-tools-for-git.html</link>
+        <guid isPermaLink="true">http://toburger.github.io/2013/02/13/reset-your-login-credentials-for-visual-studio-tools-for-git.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

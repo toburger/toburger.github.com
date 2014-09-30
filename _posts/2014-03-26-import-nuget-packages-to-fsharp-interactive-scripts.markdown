@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: fsharp
+categories: F#
 title: Import NuGet packages to F# interactive scripts
 tags: [featured, fsharp, nuget]
 image: /assets/article_images/2014-03-26-import-nuget-packages-to-fsharp-interactive-scripts/desktop.jpg

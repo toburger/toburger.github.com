@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reset your login credentials for "Visual Studio Tools for Git"
+categories: "Visual Studio"
 ---
 
 If you change your login credentials for one of the git hosting services (github, bitbucket, …) and you try to pull, fetch or push you probably receive the same error as in the screenshot below:

@@ -1,5 +1,4 @@
 ---
-layout: post
 categories: PowerShell
 title: Easy monitoring of a folder with pswatch
 tags: [powershell]

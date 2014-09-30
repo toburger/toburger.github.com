@@ -1,9 +1,7 @@
 ---
-layout: post
 categories: FSharp
 title: Import NuGet packages to F# interactive scripts
 tags: [featured, fsharp, nuget]
-image: /assets/article_images/2014-03-26-import-nuget-packages-to-fsharp-interactive-scripts/desktop.jpg
 ---
 
 Yes, it’s been a long time (exactly one year, but that’s a coincidence) since my last blog post. The main reason was that in the last year I learnt F# and slowly I have the feeling that I have understood the language and especially the paradigm shift that comes with F#.
@@ -29,7 +27,7 @@ It depends on the NuGet.Core.dll which you can get from [here](http://nuget.code
 
 The main command is `ipr` which stands for “install package and references”, which downloads the package with all its dependencies and adds the references to the clipboard, so the only thing you have to do is to paste the references on top of your script file.
 
-Just enter `ipr “package name”;;` in the f# Interactive REPL (don’t forget the two semicolons) and it will try it’s best to download and reference the packages.
+Just enter `ipr “package name”;;` in the F# Interactive REPL (don’t forget the two semicolons) and it will try it’s best to download and reference the packages.
 
 ![](http://tobivnext.files.wordpress.com/2014/03/032614_1615_importnuget2.png?w=580)
 

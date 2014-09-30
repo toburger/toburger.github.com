@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reset your login credentials for "Visual Studio Tools for Git"
 categories: "Visual Studio"
 ---

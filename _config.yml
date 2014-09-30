@@ -2,6 +2,7 @@
 markdown: redcarpet
 highlighter: pygments
 encoding: utf-8
+timezone: Europe/Rome
 
 # Site settings
 title: "Tobi vNext"
@@ -21,6 +22,15 @@ paginate: 5
 
 url: "http://toburger.github.io" # the base hostname & protocol for your site
 baseurl: ""
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            image: "/assets/article_images/desktop.jpg"
 
 # social icons and sharing options
 social:

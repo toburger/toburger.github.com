@@ -1,6 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
+encoding: utf-8
 
 # Site settings
 title: "Tobi vNext"
